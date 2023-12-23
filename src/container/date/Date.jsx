@@ -2,9 +2,8 @@ import React from "react";
 import "./date.css";
 import Clock from "../../components/countdown/Countdown";
 import jingleBell from "../../assets/jingleBell.png";
-import { Component } from "react/cjs/react.development";
 
-class Date extends Component {
+class Date extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
