@@ -294,6 +294,10 @@
     right: 14%;
     top: 15%;
   }
+
+  .contact-form {
+    width: 75vw;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -311,12 +315,20 @@
   .ornament-gifts {
     width: 300px;
   }
+
+  .contact-form {
+    width: 75vw;
+  }
 }
 
 @media screen and (max-width: 495px) {
   .gift-container {
     right: 14%;
     top: 15%;
+  }
+
+  .contact-form {
+    width: 75vw;
   }
 }
 
@@ -337,6 +349,10 @@
 
   .gift-container-close-btn {
     font-size: 20px;
+  }
+
+  .contact-form {
+    width: 75vw;
   }
 }
 
@@ -376,11 +392,18 @@
   .gift-container-close-btn {
     font-size: 15px;
   }
+
+  .contact-form {
+    width: 75vw;
+  }
 }
 
 @media screen and (max-width: 345px) {
   .gift-container {
     right: 12%;
     top: 15%;
+  }
+  .contact-form {
+    width: 75vw;
   }
 }
