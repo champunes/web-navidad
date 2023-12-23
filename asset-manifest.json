@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/web-navidad/static/css/main.65eaa4b8.css",
+    "main.js": "/web-navidad/static/js/main.db21e5a0.js",
+    "static/media/gift.png": "/web-navidad/static/media/gift.f6ccb74135ab3465ba8e.png",
+    "static/media/cookies.png": "/web-navidad/static/media/cookies.3d5907351173d79d9471.png",
+    "static/media/sleigh.png": "/web-navidad/static/media/sleigh.57c4698a7d98bdb66baa.png",
+    "static/media/jingleBell.png": "/web-navidad/static/media/jingleBell.4c3d78644e559ccdff00.png",
+    "static/media/headerImage.png": "/web-navidad/static/media/headerImage.39c0b797a63bc1e8e34c.png",
+    "static/media/logo.png": "/web-navidad/static/media/logo.d4005e3ca6dce07631e8.png",
+    "static/media/santa-hat.png": "/web-navidad/static/media/santa-hat.1c33d9f45de9eb23c5be.png",
+    "static/media/ornament.png": "/web-navidad/static/media/ornament.8fe17f235a90b8c37b12.png",
+    "static/media/seprator.png": "/web-navidad/static/media/seprator.4d6c6415700aece8605f.png",
+    "static/media/mobileLogo.png": "/web-navidad/static/media/mobileLogo.451f971a962915645ebd.png",
+    "index.html": "/web-navidad/index.html",
+    "main.65eaa4b8.css.map": "/web-navidad/static/css/main.65eaa4b8.css.map",
+    "main.db21e5a0.js.map": "/web-navidad/static/js/main.db21e5a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65eaa4b8.css",
+    "static/js/main.db21e5a0.js"
+  ]
+}
