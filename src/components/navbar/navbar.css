@@ -20,6 +20,11 @@
   flex-direction: start;
 }
 
+.navigation-bar-mobile-logo img {
+  width: 80px;
+  cursor: pointer;
+}
+
 .navigation-bar-items {
   display: flex;
 }
