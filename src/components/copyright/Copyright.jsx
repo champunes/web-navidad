@@ -4,7 +4,7 @@ import "./copyright.css";
 function Copyright() {
   return (
     <div className="cr">
-      <p>© Copyright Agency and contributors all rights reserved 2021</p>
+      <p>© José A. González 2023</p>
     </div>
   );
 }

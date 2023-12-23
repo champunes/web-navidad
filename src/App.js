@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Copyright, Navbar } from "./components";
-import { Date, Header, Gifts, Github } from "./container";
+import { Date, Header, Gifts } from "./container";
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
       </div>
       <Date />
       <Gifts />
-      <Github />
       <Copyright />
     </div>
   );

@@ -22,14 +22,13 @@ function Header() {
         <div className="seprator-pic">
           <img src={seprator} alt="mistletoe-seprator" />
         </div>
-        <h1 className="gradient-text">Merry Christams!</h1>
+        <h1 className="gradient-text">¡Feliz Navidad!</h1>
         <p>
-          Welcome to my christmas website, I've prepared some gifts for you
-          which you can get them as soon as you click on the button below
+            Bienvenido a mi sitio web de Navidad, he preparado algunos regalos para ti que puedes obtener tan pronto como hagas clic en el botón de abajo.
         </p>
 
         <button>
-          <a href="#gifts">Get your presents right now</a>
+          <a href="#gifts">Consigue tus regalos ahora mismo</a>
         </button>
       </div>
     </div>

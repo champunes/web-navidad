@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Correo from "../../components/correo/Correo";
+
 import "./gifts.css";
 import gift from "../../assets/gift.png";
 import santaHat from "../../assets/santa-hat.png";
@@ -13,7 +15,7 @@ function Gifts() {
   return (
     <div className="gifts" id="gifts">
       <div className="gifts-title">
-        <h2>Here Is Your Gifts</h2>
+        <h2>Aquí están tus regalos</h2>
       </div>
       <div className="gift-bar-container">
         <div className="gift-bar"></div>
@@ -24,28 +26,28 @@ function Gifts() {
             <img src={gift} alt="gift-box1" />
           </div>
 
-          <p>Tap to find out what is inside the gift box</p>
+          <p>Pulsa para ver que hay dentro de tu regalo</p>
           <div className="giftButton">
             {giftbox1 ? (
               <div
                 className="gift-button-btn "
                 onClick={() => setGiftbox1(false)}
               >
-                <p className="gradient-text">close</p>
+                <p className="gradient-text">cerrar</p>
               </div>
             ) : (
               <div
                 className="gift-button-btn "
                 onClick={() => setGiftbox1(true)}
               >
-                <p className="gradient-text">open</p>
+                <p className="gradient-text">abrir</p>
               </div>
             )}
 
             {giftbox1 && (
               <div className="gift-container swirl-in-fwd">
                 <img src={ornament} className="ornament-gifts" />
-                <h1>You Got A Santa Hat !!</h1>
+                <h1>Un gorro de Papa Noel !!</h1>
                 <div className="gift-container-image">
                   <img src={santaHat} />
                 </div>
@@ -53,7 +55,7 @@ function Gifts() {
                   className="gift-container-close-btn"
                   onClick={() => setGiftbox1(false)}
                 >
-                  Close
+                  Cerrar
                 </div>
               </div>
             )}
@@ -63,28 +65,28 @@ function Gifts() {
           <div className="gift-image-wrapper">
             <img src={gift} alt="gift-box1" />
           </div>
-          <p>Tap to find out what is inside the gift box</p>
+          <p>Pulsa para ver que hay dentro de tu regalo</p>
           <div className="giftButton">
             {giftbox2 ? (
               <div
                 className="gift-button-btn"
                 onClick={() => setGiftbox2(false)}
               >
-                <p className="gradient-text">close</p>
+                <p className="gradient-text">cerrar</p>
               </div>
             ) : (
               <div
                 className="gift-button-btn"
                 onClick={() => setGiftbox2(true)}
               >
-                <p className="gradient-text">open</p>
+                <p className="gradient-text">abrir</p>
               </div>
             )}
 
             {giftbox2 && (
               <div className="gift-container swirl-in-fwd">
                 <img src={ornament} className="ornament-gifts" />
-                <h1>You Got Cookies !!</h1>
+                <h1>Ñam ñam, galletitas !!</h1>
                 <div className="gift-container-image">
                   <img src={cookies} />
                 </div>
@@ -92,7 +94,7 @@ function Gifts() {
                   className="gift-container-close-btn"
                   onClick={() => setGiftbox2(false)}
                 >
-                  Close
+                  Cerrar
                 </div>
               </div>
             )}
@@ -103,36 +105,34 @@ function Gifts() {
             <img src={gift} alt="gift-box1" />
           </div>
 
-          <p>Tap to find out what is inside the gift box</p>
+          <p>Pulsa para ver que hay dentro de tu regalo</p>
           <div className="giftButton">
             {giftbox3 ? (
               <div
                 className="gift-button-btn"
                 onClick={() => setGiftbox3(false)}
               >
-                <p className="gradient-text">close</p>
+                <p className="gradient-text">cerrar</p>
               </div>
             ) : (
               <div
                 className="gift-button-btn"
                 onClick={() => setGiftbox3(true)}
               >
-                <p className="gradient-text">open</p>
+                <p className="gradient-text">abrir</p>
               </div>
             )}
 
             {giftbox3 && (
               <div className="gift-container swirl-in-fwd">
                 <img src={ornament} className="ornament-gifts" />
-                <h1>You Got A Sleigh !!</h1>
-                <div className="gift-container-image">
-                  <img src={sleigh} />
-                </div>
+                <h1>Ahora sí, el regalo de verdad.</h1>
+                <Correo />
                 <div
                   className="gift-container-close-btn"
                   onClick={() => setGiftbox3(false)}
                 >
-                  Close
+                  Cerrar
                 </div>
               </div>
             )}

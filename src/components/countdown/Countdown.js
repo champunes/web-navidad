@@ -42,15 +42,15 @@ class Clock extends Component {
   render() {
     return (
       <div className="clock gradient-text">
-        <div className="clock-days">{this.leading0(this.state.days)} Days</div>
+        <div className="clock-days">{this.leading0(this.state.days)} Días</div>
         <div className="clock-hours">
-          {this.leading0(this.state.hours)} Hours
+          {this.leading0(this.state.hours)} Horas
         </div>
         <div className="clock-minutes">
-          {this.leading0(this.state.minutes)} Minutes
+          {this.leading0(this.state.minutes)} Minutos
         </div>
         <div className="clock-seconds">
-          {this.leading0(this.state.seconds)} Seconds
+          {this.leading0(this.state.seconds)} Segundos
         </div>
       </div>
     );

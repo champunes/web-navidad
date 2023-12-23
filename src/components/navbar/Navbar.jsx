@@ -7,16 +7,13 @@ import mobileLogo from "../../assets/mobileLogo.png";
 const Menu = () => (
   <>
     <p>
-      <a href="#header">Home</a>
+      <a href="#header">Inicio</a>
     </p>
     <p>
-      <a href="#date">Date</a>
+      <a href="#date">Fecha</a>
     </p>
     <p>
-      <a href="#gifts">Gifts</a>
-    </p>
-    <p>
-      <a href="#github">Github</a>
+      <a href="#gifts">Regalos</a>
     </p>
   </>
 );
@@ -39,8 +36,8 @@ function Navbar() {
       </div>
       <div className="navigation-bar-right-section">
         <div className="navigation-bar-account">
-          <p>Sign in</p>
-          <button type="button">Sign Up</button>
+          <p>Iniciar sesión</p>
+          <button type="button">Registrarte</button>
         </div>
         <div className="navigation-bar-menu">
           {toggleMenu ? (
