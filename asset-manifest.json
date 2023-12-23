@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/web-navidad/static/css/main.36c8ce67.css",
+    "main.css": "/web-navidad/static/css/main.2ea212e0.css",
     "main.js": "/web-navidad/static/js/main.849d8ac8.js",
     "static/media/gift.png": "/web-navidad/static/media/gift.f6ccb74135ab3465ba8e.png",
     "static/media/cookies.png": "/web-navidad/static/media/cookies.3d5907351173d79d9471.png",
@@ -13,11 +13,11 @@
     "static/media/mobileLogo.png": "/web-navidad/static/media/mobileLogo.5c9fdf09101770532b6b.png",
     "static/media/seprator.png": "/web-navidad/static/media/seprator.4d6c6415700aece8605f.png",
     "index.html": "/web-navidad/index.html",
-    "main.36c8ce67.css.map": "/web-navidad/static/css/main.36c8ce67.css.map",
+    "main.2ea212e0.css.map": "/web-navidad/static/css/main.2ea212e0.css.map",
     "main.849d8ac8.js.map": "/web-navidad/static/js/main.849d8ac8.js.map"
   },
   "entrypoints": [
-    "static/css/main.36c8ce67.css",
+    "static/css/main.2ea212e0.css",
     "static/js/main.849d8ac8.js"
   ]
 }
